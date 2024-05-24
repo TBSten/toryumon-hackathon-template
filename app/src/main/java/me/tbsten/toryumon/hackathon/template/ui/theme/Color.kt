@@ -28,7 +28,16 @@ val LightColorScheme = lightColorScheme(
     background = Color(0xFFEEEEEE),
 )
 
-val DarkColorScheme = LightColorScheme
+val DarkColorScheme = darkColorScheme(
+    primary = Color(0xFF078CB5),
+    onPrimary = Color(0xFFFFFFFF),
+    secondary = Color(0xFF3D4875),
+    onSecondary = Color(0xFFFFFFFF),
+
+    surface = Color(0xFF303030),
+    onSurface = Color(0xFFF0F0F0),
+    background = Color(0xFF4B4B4B),
+)
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
